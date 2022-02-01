@@ -23,9 +23,9 @@ public class ModgetConfig {
     public static final ModgetConfig INSTANCE = new ModgetConfig();
     public final List<String> DEFAULT_REPOS = new ArrayList<>(
         Arrays.asList(
-            "https://raw.githubusercontent.com/ReviversMC/modget-manifests"
+            // "https://raw.githubusercontent.com/ReviversMC/modget-manifests"
             // ,
-            // "https://raw.githubusercontent.com/thefirethirteen/modget-manifests"
+            "https://raw.githubusercontent.com/leservermods/modget-manifests"
         )
 	);
 	public final List<String> IGNORED_MODS = new ArrayList<>(
